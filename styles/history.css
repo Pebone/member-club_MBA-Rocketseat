@@ -1,0 +1,51 @@
+.cut_history {
+  background-color: var(--white);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--gray-300);
+}
+
+hr{
+    border: 1px solid var(--gray-100);
+    border-radius: 999px;
+}
+
+.history_title {
+  justify-content: space-between;
+
+  p {
+    font-size: var(--subtitle-sm-size);
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+
+  span {
+    font-size: var(--text-xs-size);
+    line-height: 140%;
+  }
+}
+
+.history {
+  justify-content: space-between;
+}
+
+.history_label {
+  p {
+    font-size: var(--subtitle-sm-size);
+    font-weight: 700;
+    line-height: 140%;
+  }
+
+  span {
+    font-size: var(--text-xs-size);
+    line-height: 140%;
+  }
+}
+
+.history_check {
+  background-color: #45b44212;
+  border-radius: 999px;
+  width: 32px;
+  height: 32px;
+}

@@ -17,6 +17,6 @@
 
 .img_border {
   background: var(--gradient-base);
-  padding: 0.1rem;
-  border-radius: 0.625rem;
+  padding: 2px;
+  border-radius: 10px;
 }

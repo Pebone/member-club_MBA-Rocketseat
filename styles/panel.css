@@ -1,0 +1,53 @@
+.panel {
+  background-color: var(--white);
+  border-radius: 1rem;
+}
+
+.panel_header {
+  h2 {
+    font-size: var(--subtitle-sm-size);
+    font-weight: var(--fw-bold);
+    color: var(--gray-500);
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: var(--text-xs-size);
+    font-weight: var(--fw-regular);
+    color: var(--gray-500);
+    line-height: var(--lh-default);
+  }
+}
+
+.title {
+  gap: 0.25rem;
+}
+
+.id_badge {
+  background-color: var(--gray-300);
+  border-radius: 999px;
+  padding: 0.25rem;
+  width: 100%;
+  height: fit-content;
+
+  p {
+    color: var(--gray-500);
+    font-size: var(--subtitle-sm-size);
+    font-weight: var(--fw-bold);
+  }
+}
+
+.pins_check {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(56px, 1fr)); */
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0.5rem;
+  width: 100%;
+}
+
+.pin_check {
+  background-color: var(--gray-200);
+  border-radius: 0.75rem;
+  width: 100%;
+  height: 100%;
+}

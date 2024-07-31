@@ -1,0 +1,42 @@
+.haircuts_remaining {
+  background-color: var(--white);
+  border-radius: 1rem;
+  justify-content: space-between;
+}
+
+.haircuts_remaining_title {
+  p {
+    font-weight: 700;
+  }
+}
+
+.progress_bar_div {
+  p {
+    font-size: var(--text-xs-size);
+  }
+}
+
+.progress_bar_border {
+  background-color: var(--gray-300);
+  width: 150px;
+  height: 8px;
+  border-radius: 999px;
+}
+
+.progress_bar {
+  background: var(--gradient-base);
+  width: 70%;
+  height: 8px;
+  border-radius: 999px;
+}
+
+.pin_gift {
+  background-color: var(--gray-100);
+  border-radius: 999px;
+  width: 72px;
+  height: 72px;
+
+  img {
+    width: 36px;
+  }
+}

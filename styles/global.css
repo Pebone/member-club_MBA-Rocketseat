@@ -65,21 +65,11 @@ html {
   font-size: var(--fs-base);
   line-height: var(--lh-default);
   color: var(--gray-500);
-  background-color: var(--gray-200);
+  background-color: var(--gray-100);
 
   overflow-x: hidden;
 
   scroll-behavior: smooth;
-}
-
-h1 {
-  font-size: var(--title-sm-size);
-  font-weight: var(--fw-bold);
-}
-
-h2 {
-  font-size: var(--text-xs-size);
-  font-weight: var(--fw-regular);
 }
 
 img {

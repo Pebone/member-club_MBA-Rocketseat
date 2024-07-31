@@ -1,0 +1,85 @@
+.px-base {
+  padding-inline: var(--p-base);
+}
+
+.px-sm {
+  padding-inline: var(--p-sm);
+}
+
+.px-md {
+  padding-inline: var(--p-md);
+}
+
+.py-sm {
+  padding-block: var(--p-sm);
+}
+
+.py-md {
+  padding-block: var(--p-md);
+}
+
+.py-lg {
+  padding-block: var(--p-lg);
+}
+
+.py-xl {
+  padding-block: var(--p-xl);
+}
+
+.container {
+  --max-width: 375px;
+  margin-inline: auto;
+  width: min(var(--max-width), 100% - var(--p-lg) * 2);
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.align-items-center {
+  align-content: center;
+}
+
+.gap-0\.125 {
+  gap: 0.125rem;
+}
+
+.gap-0\.25 {
+  gap: 0.25rem;
+}
+
+.gap-0\.5 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-1\.25 {
+  gap: 1.25rem;
+}
+
+.gap-1\.5 {
+  gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}

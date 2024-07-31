@@ -1,0 +1,22 @@
+.search {
+  width: 100%;
+  position: relative;
+  border-radius: 0.75rem;
+}
+
+.input_text {
+  width: 100%;
+  background-color: var(--gray-300);
+  outline: none;
+  border: 1px solid var(--gray-400);
+  border-radius: 0.75rem;
+}
+
+.input_button {
+  position: absolute;
+  right: 0.5rem;
+  width: 40px;
+  height: 40px;
+  background-image: url(../assets/icons/input_button_disabled.svg);
+  cursor: pointer;
+}

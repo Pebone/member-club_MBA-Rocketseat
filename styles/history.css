@@ -5,9 +5,15 @@
   border: 1px solid var(--gray-300);
 }
 
-hr{
-    border: 1px solid var(--gray-100);
-    border-radius: 999px;
+hr {
+  border: 1px solid var(--gray-100);
+  border-radius: 999px;
+}
+
+.agenda {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .history_title {
@@ -48,4 +54,18 @@ hr{
   border-radius: 999px;
   width: 32px;
   height: 32px;
+}
+
+@media (width >= 64em) {
+  .cut_history {
+    max-height: 20rem;
+    margin: 0;
+  }
+
+  .agenda {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow-y: scroll;
+  }
 }

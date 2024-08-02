@@ -6,3 +6,4 @@
 @import url(panel.css);
 @import url(haircut_remaining.css);
 @import url(history.css);
+@import url(main_section.css) (width >= 64em);

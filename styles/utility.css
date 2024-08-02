@@ -27,9 +27,12 @@
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   --max-width: 375px;
   margin-inline: auto;
   width: min(var(--max-width), 100% - var(--p-lg) * 2);
+  gap: 1rem;
 }
 
 .flex {
@@ -90,6 +93,15 @@
 
 @media (width >= 48em) {
   .container {
+    --max-width: 768px;
+    margin-inline: auto;
+    width: min(var(--max-width), 100% - var(--p-lg) * 2);
+  }
+}
+
+@media (width >= 64em) {
+  .container {
+    /* display: block; */
     --max-width: 768px;
     margin-inline: auto;
     width: min(var(--max-width), 100% - var(--p-lg) * 2);

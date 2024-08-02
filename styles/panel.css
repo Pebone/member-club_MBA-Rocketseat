@@ -40,15 +40,46 @@
 
 .pins_check {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(56px, 1fr)); */
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 0.5rem;
-  width: 100%;
+  gap: 10px;
 }
 
 .pin_check {
   background-color: var(--gray-200);
-  border-radius: 0.75rem;
-  width: 100%;
+  border: 2px solid #ccc;
+  padding: 5px;
+  border-radius: 10px;
   height: 100%;
+
+  img {
+    max-width: 100%;
+    /* width: 56px; */
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (width >= 48em) {
+  .pins_check {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(56px), 1fr));
+    /* grid-template-columns: repeat(auto-fit, 1fr); */
+    gap: 10px;
+  }
+
+  .pin_check {
+    background-color: var(--gray-200);
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+  }
 }

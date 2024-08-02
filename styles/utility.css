@@ -36,7 +36,7 @@
   display: flex;
 }
 
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
 
@@ -86,4 +86,12 @@
 
 .gap-2 {
   gap: 2rem;
+}
+
+@media (width >= 48em) {
+  .container {
+    --max-width: 768px;
+    margin-inline: auto;
+    width: min(var(--max-width), 100% - var(--p-lg) * 2);
+  }
 }

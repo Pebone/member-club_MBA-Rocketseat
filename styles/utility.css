@@ -102,7 +102,7 @@
 @media (width >= 64em) {
   .container {
     /* display: block; */
-    --max-width: 768px;
+    --max-width: 1024px;
     margin-inline: auto;
     width: min(var(--max-width), 100% - var(--p-lg) * 2);
   }

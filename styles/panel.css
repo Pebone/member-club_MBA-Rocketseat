@@ -47,10 +47,17 @@
 
 .pin_check {
   background-color: var(--gray-200);
-  border: 2px solid #ccc;
+  /* border: 2px solid #ccc; */
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 20px;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .gift {
+    width: 36px;
+  }
 
   img {
     max-width: 100%;
@@ -89,9 +96,8 @@
 
   .pin_check {
     background-color: var(--gray-200);
-    border: 2px solid #ccc;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 100%;
 
     img {
@@ -104,6 +110,10 @@
 }
 
 @media (width >= 64em) {
+  .panel {
+    padding: 2rem;
+  }
+
   .panel_header {
     justify-content: space-between;
   }
@@ -124,17 +134,18 @@
 
   .pins_check {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(84px), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(98px), 1fr));
     /* grid-template-columns: repeat(auto-fit, 1fr); */
     gap: 10px;
   }
 
   .pin_check {
     background-color: var(--gray-200);
-    border: 2px solid #ccc;
     padding: 10px;
-    border-radius: 10px;
-    height: 100%;
+    border-radius: 20px;
+    height: 88px;
+    width: 88px;
+    min-height: 88px;
 
     img {
       max-width: 100%;
